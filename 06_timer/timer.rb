@@ -10,11 +10,8 @@ class Timer
     time = Time.new("%H:%M:%S")
     time.strftime("%H:%M:%S")
 
-    hours = @seconds/3600
-    remainder = @seconds%3600
+    hours = @seconds/(60*60)
+    remainder = @seconds%(60*60)
     sprintf("%02d:%02d:%02d", hours, remainder/60, remainder%60)
   end
 end
-
-
-
