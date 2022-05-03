@@ -30,6 +30,6 @@ def titleize(word)
         all_words.capitalize #if not included in little array capitalize 
         end
     end
-    titles.first.capitalize! #Capitalizes the first of letter of every title
+    titles.first.capitalize!  # ! changes the value of the var same as titles = titles.capitalize
     titles.join(" ") #Joins together the split which was the array of the argument(parameter)
 end
