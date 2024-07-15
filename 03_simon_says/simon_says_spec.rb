@@ -16,7 +16,7 @@ require "simon_says"
 describe "Simon says" do
   describe "echo" do
     it "should echo hello" do
-      expect(echo("hello")).to eq("hello")
+      expect(echo("helloo")).to eq("helloo")
     end
 
     it "should echo bye" do
