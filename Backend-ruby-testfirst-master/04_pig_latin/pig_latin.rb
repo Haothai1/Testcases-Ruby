@@ -1,5 +1,6 @@
 #write your code here
-def translate(words)
+
+  def translate(words)
     vowels = ['a', 'e', 'i', 'o', 'u']
     words.split.map do |word|
       if vowels.include?(word[0])
